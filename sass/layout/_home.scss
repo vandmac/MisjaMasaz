@@ -1,0 +1,53 @@
+.main-offer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: $secondary-color;
+  font-size: 24px;
+  z-index: 1;
+  .main-services {
+    p {
+      color: $secondary-color;
+    }
+  }
+}
+
+.about-us {
+  position: absolute;
+  color: $secondary-color;
+  border-radius: 3%;
+  box-shadow: 40px 40px 800px 20px $secondary-background-color;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0.5;
+}
+
+.services {
+  position: absolute;
+  width: 100%;
+  // margin-top: 160px;
+  left: 0;
+  padding: 24px;
+  box-shadow: 40px 40px 100px 35px #583211;
+}
+
+.servicer-row-item {
+}
+
+.service.item {
+  border-radius: 20%;
+
+  // box-shadow: 40px 40px 100px 35px #583211;
+}
+
+.card-body {
+  margin-top:160px;
+  min-width: 340px;
+  border-radius: 10%;
+  box-shadow: 40px 40px 100px 35px #583211;
+  background-color: $primary-background-color;
+  color: $secondary-color;
+}

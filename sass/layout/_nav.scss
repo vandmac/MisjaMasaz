@@ -1,0 +1,40 @@
+.main-nav-items {
+  // background-color: black;
+  border-radius:2%;
+  position: fixed;
+  top: 0;
+  z-index:4;
+  div.main-nav-nav-logo {
+    box-shadow: none;
+    border: none;
+    animation: main-nav-logo-animation 4s both infinite;
+    opacity: 1;
+  }
+  ul {
+    // background-color: $primary-background-color;
+    opacity: 0.8;
+
+    li {
+      padding: 16px;
+      div {
+        min-width: 100px;
+        font-size: 24px;
+        text-align: center;
+        border-bottom: 2px solid $secondary-background-color;
+        border-left: 2px solid $secondary-background-color;
+        border-radius: 10%;
+        transform: perspective(320px) rotateX(30deg) rotateY(-15deg);
+        box-shadow: 2px 20px 10px 20px #000, 20px 40px 10px 20px #000;
+        transition: 0.5s;
+        &:hover {
+          transform: perspective(320px) rotateX(0deg) rotateY(0deg);
+          box-shadow: 30px 30px 30px 40px #000,
+            -0px -30px 20px 40px $primary-background-color;
+        }
+        a {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}
