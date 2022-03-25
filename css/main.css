@@ -39,6 +39,14 @@ a {
   text-decoration: none;
 }
 
+.show {
+  display: initial;
+}
+
+.hide {
+  display: none;
+}
+
 .background-video {
   position: fixed;
   top: 0;
