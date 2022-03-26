@@ -1,3 +1,7 @@
+div.wrapper {
+  min-height: 648px;
+}
+
 .main-offer {
   position: absolute;
   top: 50%;
@@ -44,7 +48,7 @@
 }
 
 .card-body {
-  margin-top:160px;
+  margin-top: 160px;
   min-width: 340px;
   border-radius: 10%;
   box-shadow: 40px 40px 100px 35px #583211;

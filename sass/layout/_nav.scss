@@ -1,9 +1,8 @@
 .main-nav-items {
-  // background-color: black;
-  border-radius:2%;
+  border-radius: 2%;
   position: fixed;
   top: 0;
-  z-index:4;
+  z-index: 4;
   div.main-nav-nav-logo {
     box-shadow: none;
     border: none;
@@ -36,5 +35,36 @@
         }
       }
     }
+  }
+}
+
+.hamburger-icon {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  color: $primary-color;
+  border: none;
+  font-size: 32px;
+  transition: 0.5s;
+  &:hover {
+    cursor: pointer;
+    color: $primary-color;
+    font-size: 40px;
+  }
+}
+
+.offcanvas {
+  max-width: 200px;
+  font-size: 24px;
+  background-color: $primary-background-color;
+  .offcanvas-header {
+    background-color: $primary-background-color;
+  }
+  div > a {
+    color: $primary-color;
+  }
+  .offcanvas-body {
+    background-color: $primary-background-color;
+    color: $primary-color;
   }
 }

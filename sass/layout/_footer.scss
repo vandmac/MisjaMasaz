@@ -1,0 +1,21 @@
+.social-media {
+  position: fixed;
+  bottom: 0;
+  padding-top: 64px;
+  background-color: transparent;
+  a {
+    font-size: 24px;
+    color: $primary-color;
+  }
+  .copyright {
+    color: $secondary-color;
+    text-align: end;
+    font-size: 10px;
+    a{
+      color: $secondary-color;
+      font-size: 10px;
+    }
+  }
+}
+
+
