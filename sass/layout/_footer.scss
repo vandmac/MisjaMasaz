@@ -9,13 +9,13 @@
   }
   .copyright {
     color: $secondary-color;
+    opacity: 0.5;
     text-align: end;
     font-size: 10px;
-    a{
+    a {
       color: $secondary-color;
       font-size: 10px;
+      padding: 10px;
     }
   }
 }
-
-
