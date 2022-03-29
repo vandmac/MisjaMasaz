@@ -52,19 +52,3 @@
     font-size: 40px;
   }
 }
-
-.offcanvas {
-  max-width: 200px;
-  font-size: 24px;
-  background-color: $primary-background-color;
-  .offcanvas-header {
-    background-color: $primary-background-color;
-  }
-  div > a {
-    color: $primary-color;
-  }
-  .offcanvas-body {
-    background-color: $primary-background-color;
-    color: $primary-color;
-  }
-}

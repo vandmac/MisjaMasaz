@@ -160,25 +160,6 @@ a {
   font-size: 40px;
 }
 
-.offcanvas {
-  max-width: 200px;
-  font-size: 24px;
-  background-color: #403121;
-}
-
-.offcanvas .offcanvas-header {
-  background-color: #403121;
-}
-
-.offcanvas div > a {
-  color: #FAF494;
-}
-
-.offcanvas .offcanvas-body {
-  background-color: #403121;
-  color: #FAF494;
-}
-
 div.wrapper {
   min-height: 648px;
 }
