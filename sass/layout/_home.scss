@@ -38,9 +38,6 @@ div.wrapper {
   box-shadow: 40px 40px 100px 35px #583211;
 }
 
-.servicer-row-item {
-}
-
 .service.item {
   border-radius: 20%;
 
@@ -54,4 +51,9 @@ div.wrapper {
   box-shadow: 40px 40px 100px 35px #583211;
   background-color: $primary-background-color;
   color: $secondary-color;
+}
+
+#contact {
+  position: absolute;
+  top: 200px;
 }
