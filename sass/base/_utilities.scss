@@ -5,6 +5,10 @@
 }
 
 @media (max-width: 992px) {
+  #gallery {
+    margin-top: 50px;
+  }
+
   .main-nav-items {
     display: none;
   }
@@ -12,4 +16,3 @@
     top: -20%;
   }
 }
-

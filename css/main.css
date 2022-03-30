@@ -46,6 +46,9 @@ a {
 }
 
 @media (max-width: 992px) {
+  #gallery {
+    margin-top: 50px;
+  }
   .main-nav-items {
     display: none;
   }
@@ -217,7 +220,15 @@ div.wrapper {
 }
 
 #contact {
-  position: absolute;
+  position: relative;
   top: 200px;
+}
+
+#contact a {
+  color: #ED9728;
+}
+
+#contact iframe {
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */

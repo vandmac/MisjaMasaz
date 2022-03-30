@@ -54,6 +54,12 @@ div.wrapper {
 }
 
 #contact {
-  position: absolute;
+  position: relative;
   top: 200px;
+  a {
+    color: $secondary-color;
+  }
+  iframe{
+    width:100%;
+  }
 }
