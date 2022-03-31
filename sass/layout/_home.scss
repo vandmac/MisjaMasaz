@@ -3,13 +3,17 @@ div.wrapper {
 }
 
 .main-offer {
-  position: absolute;
-  top: 50%;
+  position: fixed;
+  top: 140px;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
+  background-color: $primary-background-color;
   color: $secondary-color;
   font-size: 24px;
   z-index: 1;
+  .card{
+    background-color: $primary-background-color;
+  }
   .main-services {
     p {
       color: $secondary-color;
@@ -59,7 +63,7 @@ div.wrapper {
   a {
     color: $secondary-color;
   }
-  iframe{
-    width:100%;
+  iframe {
+    width: 100%;
   }
 }

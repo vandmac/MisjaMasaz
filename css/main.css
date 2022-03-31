@@ -55,6 +55,11 @@ a {
   .main-offer {
     top: -20%;
   }
+  .about-us {
+    bottom: -120px;
+    width: 500px;
+    height: 120px;
+  }
 }
 
 .background-video {
@@ -168,14 +173,19 @@ div.wrapper {
 }
 
 .main-offer {
-  position: absolute;
-  top: 50%;
+  position: fixed;
+  top: 140px;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  background-color: #403121;
   color: #ED9728;
   font-size: 24px;
   z-index: 1;
+}
+
+.main-offer .card {
+  background-color: #403121;
 }
 
 .main-offer .main-services p {
