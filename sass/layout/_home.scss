@@ -7,17 +7,20 @@ div.wrapper {
   top: 140px;
   left: 50%;
   transform: translate(-50%, 0%);
-  background-color: $primary-background-color;
   color: $secondary-color;
   font-size: 24px;
   z-index: 1;
-  .card{
+  .card {
     background-color: $primary-background-color;
   }
   .main-services {
     p {
       color: $secondary-color;
     }
+  }
+  h5 {
+    font-size: 32px;
+    color: $primary-color;
   }
 }
 
