@@ -1,5 +1,7 @@
-.main-nav-items {
-  border-radius: 2%;
+div.main-nav-items {
+  background-color: $primary-background-color;
+  border-radius: 0% 0% 42% 42%;
+  height: 96px;
   position: fixed;
   top: 0;
   z-index: 4;
@@ -7,14 +9,14 @@
     box-shadow: none;
     border: none;
     animation: main-nav-logo-animation 4s both infinite;
-    opacity: 1;
+    // opacity: 1;
   }
   ul {
     // background-color: $primary-background-color;
     opacity: 0.8;
 
     li {
-      padding: 16px;
+      padding: 8px;
       div {
         min-width: 100px;
         font-size: 24px;
@@ -38,17 +40,30 @@
   }
 }
 
-.hamburger-icon {
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  color: $primary-color;
-  border: none;
-  font-size: 32px;
-  transition: 0.5s;
-  &:hover {
-    cursor: pointer;
+#hamburger {
+  .burger-menu {
+    background-color: $primary-background-color;
+    .main-nav-items-burger {
+      a {
+        font-size: 24px;
+        padding: 8px;
+        color: $primary-color;
+      }
+    }
+  }
+  .hamburger-icon {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+
     color: $primary-color;
-    font-size: 40px;
+    border: none;
+    font-size: 32px;
+    transition: 0.5s;
+    &:hover {
+      cursor: pointer;
+      color: $primary-color;
+      font-size: 40px;
+    }
   }
 }

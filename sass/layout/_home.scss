@@ -24,10 +24,17 @@ div.wrapper {
   }
 }
 
+#offer {
+  position: absolute;
+  // bottom: 120px;
+  top: 120px;
+}
+
 .about-us {
   position: absolute;
   color: $secondary-color;
   border-radius: 3%;
+  max-width: 400px;
   box-shadow: 40px 40px 800px 20px $secondary-background-color;
   top: 80%;
   left: 50%;
@@ -68,5 +75,27 @@ div.wrapper {
   }
   iframe {
     width: 100%;
+  }
+}
+
+.service-details {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  // background-color: $primary-background-color;
+  color: $primary-color;
+  .service-item {
+    margin-bottom: 16px;
+    min-width: 450px;
+    background-color: $primary-background-color;
+    padding: 16px;
+    border: 3px solid $secondary-background-color;
+    border-radius: 10%;
+    .card-title {
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .card-text {
+      text-align: center;
+    }
   }
 }

@@ -39,6 +39,10 @@ a {
   text-decoration: none;
 }
 
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+
 @media (min-width: 992px) {
   .hamburger {
     display: none;
@@ -77,9 +81,12 @@ a {
 
 .social-media {
   position: fixed;
+  height: 36px;
   bottom: 0;
-  padding-top: 64px;
-  background-color: transparent;
+  padding: 2px;
+  background-color: #403121;
+  opacity: 0.5;
+  border-radius: 5%;
 }
 
 .social-media a {
@@ -90,41 +97,42 @@ a {
 .social-media .copyright {
   color: #ED9728;
   opacity: 0.5;
-  text-align: end;
+  text-align: right;
   font-size: 10px;
 }
 
 .social-media .copyright a {
   color: #ED9728;
   font-size: 10px;
-  padding: 10px;
+  text-align: right;
 }
 
-.main-nav-items {
-  border-radius: 2%;
+div.main-nav-items {
+  background-color: #403121;
+  border-radius: 0% 0% 42% 42%;
+  height: 96px;
   position: fixed;
   top: 0;
   z-index: 4;
 }
 
-.main-nav-items div.main-nav-nav-logo {
+div.main-nav-items div.main-nav-nav-logo {
   -webkit-box-shadow: none;
           box-shadow: none;
   border: none;
   -webkit-animation: main-nav-logo-animation 4s both infinite;
           animation: main-nav-logo-animation 4s both infinite;
-  opacity: 1;
 }
 
-.main-nav-items ul {
+div.main-nav-items ul {
   opacity: 0.8;
 }
 
-.main-nav-items ul li {
-  padding: 16px;
+div.main-nav-items ul li {
+  padding: 8px;
 }
 
-.main-nav-items ul li div {
+div.main-nav-items ul li div {
   min-width: 100px;
   font-size: 24px;
   text-align: center;
@@ -139,18 +147,28 @@ a {
   transition: 0.5s;
 }
 
-.main-nav-items ul li div:hover {
+div.main-nav-items ul li div:hover {
   -webkit-transform: perspective(320px) rotateX(0deg) rotateY(0deg);
           transform: perspective(320px) rotateX(0deg) rotateY(0deg);
   -webkit-box-shadow: 30px 30px 30px 40px #000, 0px -30px 20px 40px #403121;
           box-shadow: 30px 30px 30px 40px #000, 0px -30px 20px 40px #403121;
 }
 
-.main-nav-items ul li div a {
+div.main-nav-items ul li div a {
   color: #FAF494;
 }
 
-.hamburger-icon {
+#hamburger .burger-menu {
+  background-color: #403121;
+}
+
+#hamburger .burger-menu .main-nav-items-burger a {
+  font-size: 24px;
+  padding: 8px;
+  color: #FAF494;
+}
+
+#hamburger .hamburger-icon {
   position: fixed;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -162,7 +180,7 @@ a {
   transition: 0.5s;
 }
 
-.hamburger-icon:hover {
+#hamburger .hamburger-icon:hover {
   cursor: pointer;
   color: #FAF494;
   font-size: 40px;
@@ -196,10 +214,16 @@ div.wrapper {
   color: #FAF494;
 }
 
+#offer {
+  position: absolute;
+  top: 120px;
+}
+
 .about-us {
   position: absolute;
   color: #ED9728;
   border-radius: 3%;
+  max-width: 400px;
   -webkit-box-shadow: 40px 40px 800px 20px #A65E09;
           box-shadow: 40px 40px 800px 20px #A65E09;
   top: 80%;
@@ -244,5 +268,29 @@ div.wrapper {
 
 #contact iframe {
   width: 100%;
+}
+
+.service-details {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #FAF494;
+}
+
+.service-details .service-item {
+  margin-bottom: 16px;
+  min-width: 450px;
+  background-color: #403121;
+  padding: 16px;
+  border: 3px solid #A65E09;
+  border-radius: 10%;
+}
+
+.service-details .service-item .card-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.service-details .service-item .card-text {
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
