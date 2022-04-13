@@ -4,7 +4,7 @@ div.wrapper {
 
 #start {
   position: absolute;
-  top: 160px;
+  top: 120px;
   left: 50%;
   transform: translate(-50%, 0%);
   max-width: 560px;
@@ -17,11 +17,6 @@ div.wrapper {
     .card {
       background-color: $primary-background-color;
     }
-    // .main-services {
-    //   p {
-    //     color: $secondary-color;
-    //   }
-    // }
 
     h5 {
       font-size: 32px;
@@ -34,6 +29,7 @@ div.wrapper {
     color: $secondary-color;
     border-radius: 3%;
     // max-width: 400px;
+    margin-bottom: 24px;
     padding: 8px;
     box-shadow: 40px 40px 800px 20px $secondary-background-color;
     // bottom: 60px;
@@ -47,16 +43,20 @@ div.wrapper {
 #offer {
   position: absolute;
   // bottom: 120px;
-  top: 120px;
+  // top: 120px;
+  h1 {
+    line-height: 150px;
+    font-family: 'Fira, Sans-serif';
+  }
 }
 
 .services {
-  position: absolute;
-  width: 100%;
+  position: relative;
+  // width: 100%;
   // margin-top: 160px;
   left: 0;
   padding: 24px;
-  box-shadow: 40px 40px 100px 35px #583211;
+  // box-shadow: 40px 40px 100px 35px #583211;
 }
 
 .service.item {
@@ -76,13 +76,15 @@ div.wrapper {
 
 #prices {
   position: absolute;
-  top: 120px;
+  // top: 120px;
   text-align: center;
   align-items: center;
   color: $secondary-color;
   h1 {
-    font-family: 'Parisienne', cursive;
-    font-size: 56px;
+    margin-top: 100px;
+    line-height: 150px;
+    // font-size: 56px;
+    font-family: 'Fira, Sans-serif';
   }
   h2 {
     font-family: 'Courgette', cursive;
@@ -100,7 +102,7 @@ div.wrapper {
 
 #contact {
   position: relative;
-  top: 200px;
+  // top: 100px;
   a {
     color: $secondary-color;
   }

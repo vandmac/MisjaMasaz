@@ -12,7 +12,6 @@ div.main-nav-items {
     // opacity: 1;
   }
   ul {
-    // background-color: $primary-background-color;
     opacity: 0.8;
 
     li {
@@ -25,11 +24,11 @@ div.main-nav-items {
         border-left: 2px solid $secondary-background-color;
         border-radius: 10%;
         transform: perspective(320px) rotateX(30deg) rotateY(-15deg);
-        box-shadow: 2px 20px 10px 20px #000, 20px 40px 10px 20px #000;
+        box-shadow: 2px 20px 10px 20px #000, 20px 40px 10px 0px #000;
         transition: 0.5s;
         &:hover {
           transform: perspective(320px) rotateX(0deg) rotateY(0deg);
-          box-shadow: 30px 30px 30px 40px #000,
+          box-shadow: 30px 30px 10px 10px #000,
             -0px -30px 20px 40px $primary-background-color;
         }
         a {
