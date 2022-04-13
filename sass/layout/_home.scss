@@ -2,25 +2,45 @@ div.wrapper {
   min-height: 648px;
 }
 
-.main-offer {
-  position: fixed;
-  top: 140px;
+#start {
+  position: absolute;
+  top: 160px;
   left: 50%;
   transform: translate(-50%, 0%);
-  color: $secondary-color;
-  font-size: 24px;
-  z-index: 1;
-  .card {
-    background-color: $primary-background-color;
-  }
-  .main-services {
-    p {
-      color: $secondary-color;
+  max-width: 560px;
+  // box-shadow: 0px 0px 20px 11px $primary-background-color;
+  .main-offer {
+    color: $secondary-color;
+    font-size: 24px;
+    margin-bottom: 20px;
+    // z-index: 1;
+    .card {
+      background-color: $primary-background-color;
+    }
+    // .main-services {
+    //   p {
+    //     color: $secondary-color;
+    //   }
+    // }
+
+    h5 {
+      font-size: 32px;
+      color: $primary-color;
     }
   }
-  h5 {
-    font-size: 32px;
-    color: $primary-color;
+
+  .about-us {
+    // position: absolute;
+    color: $secondary-color;
+    border-radius: 3%;
+    // max-width: 400px;
+    padding: 8px;
+    box-shadow: 40px 40px 800px 20px $secondary-background-color;
+    // bottom: 60px;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0.7;
   }
 }
 
@@ -28,19 +48,6 @@ div.wrapper {
   position: absolute;
   // bottom: 120px;
   top: 120px;
-}
-
-.about-us {
-  position: absolute;
-  color: $secondary-color;
-  border-radius: 3%;
-  max-width: 400px;
-  box-shadow: 40px 40px 800px 20px $secondary-background-color;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  opacity: 0.5;
 }
 
 .services {
@@ -65,6 +72,30 @@ div.wrapper {
   box-shadow: 40px 40px 100px 35px #583211;
   background-color: $primary-background-color;
   color: $secondary-color;
+}
+
+#prices {
+  position: absolute;
+  top: 120px;
+  text-align: center;
+  align-items: center;
+  color: $secondary-color;
+  h1 {
+    font-family: 'Parisienne', cursive;
+    font-size: 56px;
+  }
+  h2 {
+    font-family: 'Courgette', cursive;
+  }
+  .prices-item {
+    box-shadow: 0px 0px 100px 20px $primary-background-color;
+    border-radius: 30px;
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+  .prices-item:hover {
+    color: $primary-color;
+  }
 }
 
 #contact {

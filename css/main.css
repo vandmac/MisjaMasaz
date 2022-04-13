@@ -56,14 +56,6 @@ body {
   .main-nav-items {
     display: none;
   }
-  .main-offer {
-    top: -20%;
-  }
-  .about-us {
-    bottom: -120px;
-    width: 500px;
-    height: 120px;
-  }
 }
 
 .background-video {
@@ -160,6 +152,7 @@ div.main-nav-items ul li div a {
 
 #hamburger .burger-menu {
   background-color: #403121;
+  width: 160px;
 }
 
 #hamburger .burger-menu .main-nav-items-burger a {
@@ -190,48 +183,43 @@ div.wrapper {
   min-height: 648px;
 }
 
-.main-offer {
-  position: fixed;
-  top: 140px;
+#start {
+  position: absolute;
+  top: 160px;
   left: 50%;
   -webkit-transform: translate(-50%, 0%);
           transform: translate(-50%, 0%);
-  color: #ED9728;
-  font-size: 24px;
-  z-index: 1;
+  max-width: 560px;
 }
 
-.main-offer .card {
+#start .main-offer {
+  color: #ED9728;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#start .main-offer .card {
   background-color: #403121;
 }
 
-.main-offer .main-services p {
-  color: #ED9728;
-}
-
-.main-offer h5 {
+#start .main-offer h5 {
   font-size: 32px;
   color: #FAF494;
+}
+
+#start .about-us {
+  color: #ED9728;
+  border-radius: 3%;
+  padding: 8px;
+  -webkit-box-shadow: 40px 40px 800px 20px #A65E09;
+          box-shadow: 40px 40px 800px 20px #A65E09;
+  text-align: center;
+  opacity: 0.7;
 }
 
 #offer {
   position: absolute;
   top: 120px;
-}
-
-.about-us {
-  position: absolute;
-  color: #ED9728;
-  border-radius: 3%;
-  max-width: 400px;
-  -webkit-box-shadow: 40px 40px 800px 20px #A65E09;
-          box-shadow: 40px 40px 800px 20px #A65E09;
-  top: 80%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  text-align: center;
-  opacity: 0.5;
 }
 
 .services {
@@ -255,6 +243,37 @@ div.wrapper {
           box-shadow: 40px 40px 100px 35px #583211;
   background-color: #403121;
   color: #ED9728;
+}
+
+#prices {
+  position: absolute;
+  top: 120px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ED9728;
+}
+
+#prices h1 {
+  font-family: 'Parisienne', cursive;
+  font-size: 56px;
+}
+
+#prices h2 {
+  font-family: 'Courgette', cursive;
+}
+
+#prices .prices-item {
+  -webkit-box-shadow: 0px 0px 100px 20px #403121;
+          box-shadow: 0px 0px 100px 20px #403121;
+  border-radius: 30px;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+#prices .prices-item:hover {
+  color: #FAF494;
 }
 
 #contact {
