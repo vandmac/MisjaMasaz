@@ -94,9 +94,9 @@ div.wrapper {
     border-radius: 30px;
     padding: 8px;
     margin-bottom: 8px;
-  }
-  .prices-item:hover {
-    color: $primary-color;
+    &:hover {
+      color: $primary-color;
+    }
   }
 }
 
@@ -118,7 +118,7 @@ div.wrapper {
   color: $primary-color;
   .service-item {
     margin-bottom: 16px;
-    min-width: 450px;
+    min-width: 400px;
     background-color: $primary-background-color;
     padding: 16px;
     border: 3px solid $secondary-background-color;

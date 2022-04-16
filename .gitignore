@@ -2,3 +2,5 @@
 node_modules
 yarn-error.log
 READMEorg.md
+package-lock.json
+package.json
