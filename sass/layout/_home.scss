@@ -42,16 +42,15 @@ div.wrapper {
 
 #offer {
   position: absolute;
-  // bottom: 120px;
-  // top: 120px;
+  top: 120px;
   h1 {
     line-height: 150px;
     font-family: 'Fira, Sans-serif';
   }
 }
 
-.services {
-  position: relative;
+#services {
+  // position: relative;
   // width: 100%;
   // margin-top: 160px;
   left: 0;
@@ -76,7 +75,7 @@ div.wrapper {
 
 #prices {
   position: absolute;
-  // top: 120px;
+  top: 120px;
   text-align: center;
   align-items: center;
   color: $secondary-color;
@@ -100,9 +99,14 @@ div.wrapper {
   }
 }
 
+#gallery {
+  position: absolute;
+  top: 100px;
+}
+
 #contact {
   position: relative;
-  // top: 100px;
+  top: 100px;
   a {
     color: $secondary-color;
   }

@@ -38,7 +38,8 @@ div.main-nav-items {
   }
 }
 
-#hamburger {
+.hamburger {
+  z-index: 5;
   .burger-menu {
     background-color: $primary-background-color;
     width: 160px;
@@ -52,9 +53,10 @@ div.main-nav-items {
   }
   .hamburger-icon {
     position: fixed;
+    margin-bottom: 80px;
     left: 50%;
     transform: translateX(-50%);
-
+    z-index: 10;
     color: $primary-color;
     border: none;
     font-size: 32px;

@@ -50,6 +50,12 @@ body {
 }
 
 @media (max-width: 992px) {
+  #offer {
+    margin-top: 50px;
+  }
+  #prices {
+    margin-top: 50px;
+  }
   #gallery {
     margin-top: 50px;
   }
@@ -153,22 +159,28 @@ div.main-nav-items ul li div a {
   color: #faf494;
 }
 
-#hamburger .burger-menu {
+.hamburger {
+  z-index: 5;
+}
+
+.hamburger .burger-menu {
   background-color: #403121;
   width: 160px;
 }
 
-#hamburger .burger-menu .main-nav-items-burger a {
+.hamburger .burger-menu .main-nav-items-burger a {
   font-size: 24px;
   padding: 8px;
   color: #faf494;
 }
 
-#hamburger .hamburger-icon {
+.hamburger .hamburger-icon {
   position: fixed;
+  margin-bottom: 80px;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  z-index: 10;
   color: #faf494;
   border: none;
   font-size: 32px;
@@ -176,7 +188,7 @@ div.main-nav-items ul li div a {
   transition: 0.5s;
 }
 
-#hamburger .hamburger-icon:hover {
+.hamburger .hamburger-icon:hover {
   cursor: pointer;
   color: #faf494;
   font-size: 40px;
@@ -223,6 +235,7 @@ div.wrapper {
 
 #offer {
   position: absolute;
+  top: 120px;
 }
 
 #offer h1 {
@@ -230,8 +243,7 @@ div.wrapper {
   font-family: 'Fira, Sans-serif';
 }
 
-.services {
-  position: relative;
+#services {
   left: 0;
   padding: 24px;
 }
@@ -252,6 +264,7 @@ div.wrapper {
 
 #prices {
   position: absolute;
+  top: 120px;
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -281,8 +294,14 @@ div.wrapper {
   color: #faf494;
 }
 
+#gallery {
+  position: absolute;
+  top: 100px;
+}
+
 #contact {
   position: relative;
+  top: 100px;
 }
 
 #contact a {
