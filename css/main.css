@@ -236,10 +236,11 @@ div.wrapper {
 #offer {
   position: absolute;
   top: 120px;
-  opacity: 50%;
 }
 
 #offer h1 {
+  margin-top: 50px;
+  color: #faf494;
   line-height: 150px;
   font-family: 'Fira, Sans-serif';
 }
@@ -309,11 +310,6 @@ div.wrapper {
 
 #contact {
   position: fixed;
-  max-width: 1140px;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
-  top: 50px;
   opacity: 50%;
 }
 

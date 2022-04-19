@@ -95,6 +95,3 @@ mainNavItemBurgerContact.addEventListener('click', function () {
 // initialize section start
 hideSection(allSections);
 sectionStart.style.display = '';
-
-// const myAudioPlayer = document.getElementById('my-audio-background');
-// myAudioPlayer.volume = 0.3;

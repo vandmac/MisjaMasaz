@@ -37,8 +37,9 @@ div.wrapper {
 #offer {
   position: absolute;
   top: 120px;
-  opacity: 50%;
   h1 {
+    margin-top: 50px;
+    color: $primary-color;
     line-height: 150px;
     font-family: 'Fira, Sans-serif';
   }
@@ -101,10 +102,10 @@ div.wrapper {
 
 #contact {
   position: fixed;
-  max-width: 1140px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  top: 50px;
+  // max-width: 1140px;
+  // left: 50%;
+  // transform: translate(-50%, 0);
+  // top: 50px;
   opacity: 50%;
   a {
     color: $secondary-color;
