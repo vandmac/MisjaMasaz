@@ -73,8 +73,8 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   z-index: -1;
-  -webkit-filter: brightness(20%);
-          filter: brightness(20%);
+  -webkit-filter: brightness(10%);
+          filter: brightness(10%);
 }
 
 .social-media {
