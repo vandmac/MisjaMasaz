@@ -79,7 +79,7 @@ body {
 
 .social-media {
   position: fixed;
-  max-width: 1140px;
+  max-width: 768px;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
@@ -236,6 +236,7 @@ div.wrapper {
 #offer {
   position: absolute;
   top: 120px;
+  opacity: 50%;
 }
 
 #offer h1 {
@@ -266,15 +267,12 @@ div.wrapper {
   position: absolute;
   top: 120px;
   text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   color: #ed9728;
 }
 
 #prices h1 {
-  margin-top: 100px;
-  line-height: 150px;
+  margin-top: 80px;
+  line-height: 120px;
   font-family: 'Fira, Sans-serif';
 }
 
@@ -291,34 +289,46 @@ div.wrapper {
 }
 
 #prices .prices-item:hover {
-  color: #faf494;
+  -webkit-box-shadow: 0px 0px 5px 5px black;
+          box-shadow: 0px 0px 5px 5px black;
 }
 
 #gallery {
   position: absolute;
-  top: 100px;
+  top: 0;
+  height: 100%;
+  text-align: center;
+}
+
+#gallery .carousel-inner img {
+  display: block;
+  height: auto;
+  max-width: 70%;
+  margin: auto;
 }
 
 #contact {
-  position: relative;
-  top: 100px;
+  position: fixed;
+  max-width: 1140px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  top: 50px;
+  opacity: 50%;
 }
 
 #contact a {
   color: #ed9728;
 }
 
-#contact iframe {
-  width: 100%;
-}
-
-.service-details {
+#contact .service-details {
   margin-top: 40px;
   margin-bottom: 40px;
-  color: #faf494;
+  margin: auto;
 }
 
-.service-details .service-item {
+.service-item {
+  color: #faf494;
   margin-bottom: 16px;
   min-width: 400px;
   background-color: #403121;
@@ -327,12 +337,12 @@ div.wrapper {
   border-radius: 10%;
 }
 
-.service-details .service-item .card-title {
+.service-item .card-title {
   text-align: center;
   text-transform: uppercase;
 }
 
-.service-details .service-item .card-text {
+.service-item .card-text {
   text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
