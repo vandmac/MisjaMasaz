@@ -266,7 +266,6 @@ div.wrapper {
 
 #prices {
   position: absolute;
-  top: 120px;
   text-align: center;
   color: #ed9728;
 }
@@ -301,16 +300,9 @@ div.wrapper {
   text-align: center;
 }
 
-#gallery .carousel-inner img {
-  display: block;
-  height: auto;
-  max-width: 70%;
-  margin: auto;
-}
-
 #contact {
   position: fixed;
-  opacity: 50%;
+  opacity: 60%;
 }
 
 #contact a {
