@@ -210,6 +210,10 @@ div.wrapper {
   text-align: center;
   opacity: 0.7;
 }
+#start .voucher {
+  -webkit-animation: main-nav-logo-animation 6s both infinite;
+          animation: main-nav-logo-animation 6s both infinite;
+}
 
 #offer {
   position: absolute;
