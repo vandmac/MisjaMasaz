@@ -244,7 +244,6 @@ div.wrapper {
 #prices {
   position: absolute;
   color: #ed9728;
-  background-image: "/assets/img/mm_logo-512.jpeg";
   z-index: 5;
 }
 #prices h1 {
