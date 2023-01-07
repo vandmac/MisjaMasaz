@@ -54,13 +54,9 @@ div.wrapper {
   padding: 24px;
 }
 
-.service.item {
-  border-radius: 20%;
-}
-
 .card-body {
   margin-top: 160px;
-  min-width: 340px;
+  min-width: 30px;
   border-radius: 10%;
   box-shadow: 40px 40px 100px 35px #583211;
   background-color: $primary-background-color;
@@ -69,19 +65,25 @@ div.wrapper {
 
 #prices {
   position: absolute;
-  // top: 80px;
-  text-align: center;
   color: $secondary-color;
+  background-image: '/assets/img/mm_logo-512.jpeg';
+  z-index: 5;
   h1 {
     margin-top: 80px;
     line-height: 120px;
-    font-family: 'Fira, Sans-serif';
+    // font-family: 'Fira, Sans-serif';
+    font-family: 'Courgette';
+    letter-spacing: 1.5vw;
   }
   h2 {
-    font-family: 'Courgette', cursive;
+    font-family: 'Fira, Sans-serif';
+    text-transform: uppercase;
+  }
+  h3 {
+    font-weight: bold;
   }
   .prices-item {
-    box-shadow: 0px 0px 100px 20px $primary-background-color;
+    // box-shadow: 0px 0px 200px 20px $primary-background-color;
     border-radius: 30px;
     padding: 8px;
     margin-bottom: 8px;
