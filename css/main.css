@@ -257,11 +257,13 @@ div.wrapper {
   font-family: "Fira, Sans-serif";
   text-transform: uppercase;
 }
-#prices h3 {
-  font-weight: bold;
+#prices h4 {
+  font-family: "Courgette";
 }
 #prices .prices-item {
-  border-radius: 30px;
+  -webkit-box-shadow: 0px 0px 200px 20px #403121;
+          box-shadow: 0px 0px 200px 20px #403121;
+  border-radius: 20px;
   padding: 8px;
   margin-bottom: 8px;
 }
