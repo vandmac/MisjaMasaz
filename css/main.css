@@ -106,7 +106,7 @@ div.main-nav-items {
   height: 96px;
   position: fixed;
   top: 0;
-  z-index: 4;
+  z-index: 99;
 }
 div.main-nav-items div.main-nav-nav-logo {
   -webkit-box-shadow: none;
@@ -146,7 +146,7 @@ div.main-nav-items ul li div a {
 }
 
 .hamburger {
-  z-index: 5;
+  z-index: 99;
 }
 .hamburger .burger-menu {
   background-color: #403121;

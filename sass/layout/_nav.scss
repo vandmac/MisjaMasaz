@@ -4,7 +4,7 @@ div.main-nav-items {
   height: 96px;
   position: fixed;
   top: 0;
-  z-index: 4;
+  z-index: 99;
   div.main-nav-nav-logo {
     box-shadow: none;
     border: none;
@@ -39,7 +39,7 @@ div.main-nav-items {
 }
 
 .hamburger {
-  z-index: 5;
+  z-index: 99;
   .burger-menu {
     background-color: $primary-background-color;
     width: 160px;
