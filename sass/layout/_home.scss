@@ -93,8 +93,8 @@ div.wrapper {
 }
 
 #gallery {
-  position: absolute;
-  top: 0;
+  position: fixed;
+  top: 120px;
   height: 100%;
   text-align: center;
 }
