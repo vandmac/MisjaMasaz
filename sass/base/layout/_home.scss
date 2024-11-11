@@ -1,0 +1,134 @@
+div.wrapper {
+  min-height: 648px;
+}
+
+#start {
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  max-width: 560px;
+  .main-offer {
+    color: $secondary-color;
+    font-size: 24px;
+    margin-bottom: 20px;
+    // z-index: 1;
+    .card {
+      background-color: $primary-background-color;
+    }
+
+    h5 {
+      font-size: 32px;
+      color: $primary-color;
+    }
+  }
+
+  .about-us {
+    color: $secondary-color;
+    border-radius: 3%;
+    margin-bottom: 24px;
+    padding: 8px;
+    box-shadow: 40px 40px 800px 20px $secondary-background-color;
+    text-align: center;
+    opacity: 0.7;
+  }
+
+  .voucher {
+    animation: main-nav-logo-animation 6s both infinite;
+  }
+}
+
+#offer {
+  position: absolute;
+  top: 120px;
+  h1 {
+    margin-top: 50px;
+    color: $primary-color;
+    line-height: 150px;
+    font-family: 'Fira, Sans-serif';
+  }
+}
+
+#services {
+  left: 0;
+  padding: 24px;
+}
+
+.card-body {
+  margin-top: 160px;
+  min-width: 30px;
+  border-radius: 10%;
+  box-shadow: 40px 40px 100px 35px #583211;
+  background-color: $primary-background-color;
+  color: $secondary-color;
+}
+
+#prices {
+  position: absolute;
+  color: $secondary-color;
+  z-index: 5;
+  h1 {
+    margin-top: 80px;
+    line-height: 120px;
+    font-family: 'Courgette';
+    letter-spacing: 1.5vw;
+  }
+  h2 {
+    font-family: 'Fira, Sans-serif';
+    text-transform: uppercase;
+  }
+  h4 {
+    font-family: 'Courgette';
+    // font-style: italic;
+  }
+  .prices-item {
+    box-shadow: 0px 0px 200px 20px $primary-background-color;
+    border-radius: 20px;
+    padding: 8px;
+    margin-bottom: 8px;
+    &:hover {
+      box-shadow: 0px 0px 5px 5px black;
+    }
+  }
+}
+
+#gallery {
+  position: absolute;
+  top: 120px;
+  height: 100%;
+  text-align: center;
+}
+
+#contact {
+  position: fixed;
+  // max-width: 1140px;
+  // left: 50%;
+  // transform: translate(-50%, 0);
+  // top: 50px;
+  opacity: 60%;
+  a {
+    color: $secondary-color;
+  }
+  .service-details {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin: auto;
+  }
+}
+
+.service-item {
+  color: $primary-color;
+  margin-bottom: 16px;
+  min-width: 400px;
+  background-color: $primary-background-color;
+  padding: 16px;
+  border: 3px solid $secondary-background-color;
+  border-radius: 10%;
+  .card-title {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .card-text {
+    text-align: center;
+  }
+}

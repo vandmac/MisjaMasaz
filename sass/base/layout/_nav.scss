@@ -1,0 +1,70 @@
+div.main-nav-items {
+  background-color: $primary-background-color;
+  border-radius: 0% 0% 42% 42%;
+  height: 96px;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  div.main-nav-nav-logo {
+    box-shadow: none;
+    border: none;
+    animation: main-nav-logo-animation 4s both infinite;
+  }
+  ul {
+    opacity: 0.8;
+
+    li {
+      padding: 8px;
+      div {
+        min-width: 100px;
+        font-size: 24px;
+        text-align: center;
+        border-bottom: 2px solid $secondary-background-color;
+        border-left: 2px solid $secondary-background-color;
+        border-radius: 10%;
+        transform: perspective(320px) rotateX(30deg) rotateY(-15deg);
+        box-shadow: 2px 20px 10px 20px #000, 20px 40px 10px 0px #000;
+        transition: 0.5s;
+        &:hover {
+          transform: perspective(320px) rotateX(0deg) rotateY(0deg);
+          box-shadow: 30px 30px 10px 10px #000,
+            -0px -30px 20px 40px $primary-background-color;
+        }
+        a {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}
+
+.hamburger {
+  z-index: 99;
+  .burger-menu {
+    background-color: $primary-background-color;
+    width: 160px;
+    .main-nav-items-burger {
+      a {
+        font-size: 24px;
+        padding: 8px;
+        color: $primary-color;
+      }
+    }
+  }
+  .hamburger-icon {
+    position: fixed;
+    margin-bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    color: $primary-color;
+    border: none;
+    font-size: 32px;
+    transition: 0.5s;
+    &:hover {
+      cursor: pointer;
+      color: $primary-color;
+      font-size: 40px;
+    }
+  }
+}

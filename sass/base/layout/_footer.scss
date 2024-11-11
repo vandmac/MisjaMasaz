@@ -1,0 +1,26 @@
+.social-media {
+  position: fixed;
+  max-width: 768px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 32px;
+  bottom: 0;
+  background-color: $primary-background-color;
+  border-radius: 5%;
+  a {
+    font-size: 24px;
+    color: $primary-color;
+  }
+  .copyright {
+    color: $secondary-color;
+    opacity: 0.5;
+    text-align: right;
+    line-height: 32px;
+    font-size: 16px;
+    a {
+      color: $secondary-color;
+      font-size: 16px;
+      text-align: right;
+    }
+  }
+}
